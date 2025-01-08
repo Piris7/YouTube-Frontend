@@ -1,0 +1,43 @@
+.sideBar{  
+    position: fixed;
+    top:55px;
+    bottom:0;
+    left:0;
+    background-color: white;
+    width:72px;
+    z-index: 200;
+    padding-top: 5px;
+
+   
+}
+
+.explore-icon{
+    height:2px;
+    width:4px;
+}
+
+.sideBar-link{
+    height:74px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+
+.sideBar-link:hover{
+    background-color:rgb(231, 228, 228) ;
+}
+
+.sideBar-link img{
+    height:24px;
+    margin-bottom: 4px;
+}
+
+.sideBar-link div{
+    font-family: roboto,Arial;
+    font-size: 10px;
+}
+
+
